@@ -1,0 +1,144 @@
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "h h"
+    "a n"
+    "f f"
+    ;
+
+}
+body{
+    background-image: url(teglafal.jpg);
+    padding: 30px;
+}
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
+nav{
+    float: left;
+    grid-area: n;
+}
+footer{
+    grid-area: f;
+}
+
+.kep1{
+    width: 1000px;
+    height: auto;
+}
+.kep2{
+    width: 200px;
+    height: auto;
+    
+}
+header{
+    background-image: url(beer-new_401732638.jpg);
+    background-size: cover;
+    height: 300px;
+    
+      
+}
+body{
+    color: white;
+}
+article{
+    border: 4px solid black;
+    background-color: black;
+    
+
+}
+nav{
+    border: 4px solid black;
+    background-color: gray;
+    }
+#egesz{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "c c"
+    "j b"
+    ;
+
+}
+#cim{
+    grid-area: c;
+}
+
+#jobb{
+    grid-area: j;
+}
+#bal{
+    grid-area: b;
+    
+}
+#menu{
+    list-style-type: none;
+
+   
+   
+}
+#felsorolas{
+    list-style-type: square;
+}
+li a{
+    border: 2px solid rgb(86,86,86 );
+    color: red;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    
+}
+a:link {
+    color: red;
+  }
+  
+  
+  a:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th {
+    border: 1px solid gray;
+}
+tbody tr:nth-child(odd){
+    background-color: gray;
+}
+#tablazat{
+    background-color: black;
+}
